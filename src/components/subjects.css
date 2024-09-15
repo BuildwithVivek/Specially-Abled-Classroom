@@ -1,0 +1,81 @@
+/* styles.css */
+
+/* Common styles for SubjectCard and SubjectList components */
+
+.subject-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 10px;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .subject-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+  }
+  
+  .subject-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .subject-card button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .subject-card button:hover {
+    background-color: #c82333;
+  }
+  
+  .subject-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Additional styles for Subjects component */
+  
+  .subjects {
+    text-align: center;
+  }
+  
+  .name {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  
+  .subname {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .new_sub_btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .subjects button:hover {
+    background-color: #218838;
+  }
+  

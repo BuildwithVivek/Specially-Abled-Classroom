@@ -1,0 +1,53 @@
+.result-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .result-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .result-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resu {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .question-number {
+    font-weight: bold;
+  }
+  
+  .question-letter {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .your-answer {
+    font-weight: bold;
+  }
+  
+  .correct-answer {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .wrong-answer {
+    color: red;
+    font-weight: bold;
+  }
+  

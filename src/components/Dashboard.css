@@ -1,0 +1,67 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.student-list {
+  list-style: none;
+  padding: 0;
+}
+
+.student-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.student-name {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.student-name:hover {
+  text-decoration: underline;
+}
+
+.dash_del_btn {
+  background-color: #ff5f5f;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dash_del_btn:hover {
+  background-color: #ff3b3b;
+}
+
+.student-input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 60%;
+}
+
+.student-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.student-button:hover {
+  background-color: #45a049;
+}

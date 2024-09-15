@@ -1,0 +1,29 @@
+.progress-report-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.progress-report-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.task-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.task-button:hover {
+  background-color: #45a049;
+}

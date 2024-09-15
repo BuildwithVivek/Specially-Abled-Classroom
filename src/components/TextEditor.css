@@ -1,0 +1,118 @@
+.text-editor {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    padding-top: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #6aa5eae4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .ht
+  {
+    font-size: 20px;
+    font-family: "Ubuntu", serif;
+  }
+  .navv
+  {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  
+  .formatting-buttons {
+    margin-bottom: 10px;
+  }
+  
+  .formatting-buttons button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #f5a623;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .formatting-buttons input {
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .formatting-buttons button :hover  {
+    background-color: #ffc100;
+  }
+  
+  .editor-content {
+    border: 1px solid #ccc;
+    min-height: 120vh;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow-y: auto;
+  }
+  
+  /* Font Size */
+  .editor-content.large-text {
+    font-size: 18px;
+  }
+  
+  /* Contrast */
+  .contrast-mode .editor-content {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Color Inverse */
+  .color-inverse-mode .editor-content {
+    filter: invert(1);
+  }
+  
+  /* Font Color */
+  .font-color-mode .editor-content {
+    color: #3498db; /* Change to your preferred font color */
+  }
+  
+  .download-button button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.download-button button:hover {
+  background-color: #45a049;
+}
+
+/* Additional Styling for Customization Features */
+.customization-buttons {
+  margin-bottom: 10px;
+}
+
+.customization-buttons label {
+  margin-right: 10px;
+}
+
+.customization-buttons select,
+.customization-buttons input[type="color"] {
+  margin-right: 10px;
+}
+
+/* Font Size Selector */
+.customization-buttons select {
+  padding: 5px;
+}
+
+/* Font Color Picker */
+.customization-buttons input[type="color"] {
+  padding: 0;
+  border: none;
+}
+
+/* Apply additional styles for other customization features as needed */
+

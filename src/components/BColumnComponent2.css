@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2
+{
+    padding-left: 15px;
+}
+
+.navbcc2
+{
+  background-color: #248afd;
+  color: white;
+}
+
+#fetchButton {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #f5a623;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+#fetchButton:hover {
+    background-color: #ffc100; /* Darken the color on hover */
+}
+
+#document-content {
+    width: 80%;
+    padding: 20px;
+    border-radius: 0 0 8px 8px; /* Adjust border radius for bottom corners */
+    background-color: #ffffff;
+    border-top: 1px solid #bababa;
+    height: 95vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.b {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 7px;
+}
+
+.notepad
+{
+    padding-top: 20px;
+    background-color: #ececec;
+}
+
+  

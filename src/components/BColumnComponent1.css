@@ -1,0 +1,52 @@
+
+  .head_aud {
+    background-color: #248afd;
+    color: white;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+   
+  }
+
+  .audios_files
+  {
+    margin: 10px;
+  }
+
+li 
+{
+    list-style: none;
+}
+
+.aud {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .aud_tit {
+    font-size: 17px;
+    padding-top: 8px;
+    color: #000000; 
+    margin-bottom: 8px;
+    width: 20%;
+  }
+
+  .auth {
+    font-size: 12px;
+    padding-top: 8px;
+    color: #666;
+    margin-bottom: 8px;
+    width: 20%;
+  }
+  
+  audio {
+    width: 60%;
+    
+  }
+  

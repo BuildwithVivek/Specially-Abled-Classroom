@@ -1,0 +1,17 @@
+/* ProgressBar.css */
+
+.progress-bar-container {
+  margin-top: 20px;
+}
+
+.progress-bar-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.progress-bar-fill {
+  height: 20px;
+  background-color: #4caf50;
+  width: 0; /* Initial width, will be updated dynamically */
+  transition: width 0.5s ease; /* Smooth transition animation */
+}
